@@ -4,7 +4,7 @@ import 'package:nectar_app/features/home/models/model_box.dart';
 
 class HomeCardWidget extends StatelessWidget {
   const HomeCardWidget({super.key, required this.cardModel});
-  final CardModel cardModel;
+  final HomeCardModel cardModel;
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -89,7 +89,7 @@ class BuildExclusiveOfferWidget extends StatelessWidget {
 class BuildBestSellingWidget extends StatelessWidget {
   const BuildBestSellingWidget({super.key, required this.bestSelling});
 
-  final List<CardModel> bestSelling;
+  final List<HomeCardModel> bestSelling;
 
   @override
   Widget build(BuildContext context) {

@@ -7,3 +7,7 @@ class AppAssets {
   static const String bananaPng = "assets/images/banana.png";
   static const String applePng = "assets/images/apple.png";
 }
+
+class ExploreAssets {
+  static const String frashFruitsAndVegetable = "";
+}
