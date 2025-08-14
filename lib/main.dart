@@ -15,7 +15,6 @@ class NectarApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: SlpashScreen(),
       theme: AppTheme.lighttheme,
-      
     );
   }
 }

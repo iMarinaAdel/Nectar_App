@@ -3,6 +3,11 @@ import 'package:nectar_app/core/utils/app_colors.dart';
 
 class AppTheme {
   static ThemeData lighttheme = ThemeData(
+    appBarTheme: AppBarTheme(
+      surfaceTintColor: Colors.transparent,
+      backgroundColor: ColorsApp.whiteColor,
+    ),
+    scaffoldBackgroundColor: ColorsApp.whiteColor,
     hintColor: ColorsApp.grayColor,
     textSelectionTheme: TextSelectionThemeData(
       cursorColor: ColorsApp.primaryColor,
