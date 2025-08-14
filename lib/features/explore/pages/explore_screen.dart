@@ -30,10 +30,7 @@ class _ExploreScreenState extends State<ExploreScreen> {
         padding: const EdgeInsets.only(right: 25, left: 25, top: 20),
         child: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.only(bottom: 20),
-              child: SearchBarWidget(),
-            ),
+            SearchBarWidget(),
             Expanded(
               child: GridView.builder(
                 itemCount: category.length,
