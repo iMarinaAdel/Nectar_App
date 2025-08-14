@@ -31,6 +31,7 @@ class _ExploreScreenState extends State<ExploreScreen> {
         child: Column(
           children: [
             SearchBarWidget(),
+            const SizedBox(height: 20,),
             Expanded(
               child: GridView.builder(
                 itemCount: category.length,
