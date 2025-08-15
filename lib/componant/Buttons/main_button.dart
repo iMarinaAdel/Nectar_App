@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:nectar_app/core/utils/app_colors.dart';
 
 class AppMainButton extends StatelessWidget {
-  const AppMainButton.appMainButton({
+  const AppMainButton({
     super.key,
     required this.text,
     this.onPressed,
