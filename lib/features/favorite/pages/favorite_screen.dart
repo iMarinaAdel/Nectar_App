@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nectar_app/componant/Buttons/main_buttons.dart';
+import 'package:nectar_app/componant/Buttons/app_main_button.dart';
 import 'package:nectar_app/features/favorite/models/fav_model.dart';
 import 'package:nectar_app/features/favorite/widgets/fav_item_widget.dart';
 
@@ -33,10 +33,7 @@ class FavoriteScreen extends StatelessWidget {
                 itemCount: favProducts.length,
               ),
             ),
-            AppMainButton.appMainButton(
-              text: "Add All To Cart",
-              onPressed: () {},
-            ),
+            AppMainButton(text: "Add All To Cart", onPressed: () {}),
           ],
         ),
       ),
