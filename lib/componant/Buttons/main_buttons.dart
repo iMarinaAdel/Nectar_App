@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:nectar_app/core/utils/app_colors.dart';
 
-class AppElevatedButton extends StatelessWidget {
-  const AppElevatedButton({super.key, required this.text, this.onPressed});
+class MainButtons extends StatelessWidget {
+  const MainButtons({super.key, required this.text, this.onPressed});
   final String text;
   final void Function()? onPressed;
 
@@ -11,9 +11,7 @@ class AppElevatedButton extends StatelessWidget {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
         backgroundColor: ColorsApp.primaryColor,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadiusGeometry.circular(19),
-        ),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
       ),
       onPressed: onPressed,
       child: SizedBox(

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:nectar_app/componant/Buttons/elevated_button.dart';
+import 'package:nectar_app/componant/Buttons/main_buttons.dart';
 import 'package:nectar_app/componant/inputs/input_text_form_field.dart';
 import 'package:nectar_app/const/app_assets.dart';
 import 'package:nectar_app/core/utils/app_colors.dart';
@@ -131,7 +131,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                       ),
                     ),
                     const SizedBox(height: 30),
-                    AppElevatedButton(
+                    MainButtons(
                       text: "Sign Up",
                       onPressed: () {
                         if (formKey.currentState?.validate() ?? false) {
