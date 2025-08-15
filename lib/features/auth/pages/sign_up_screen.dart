@@ -7,6 +7,7 @@ import 'package:nectar_app/core/utils/app_colors.dart';
 import 'package:nectar_app/extentions/navigation.dart';
 import 'package:nectar_app/features/auth/pages/login_screen.dart';
 import 'package:nectar_app/features/home/pages/home_screen.dart';
+import 'package:nectar_app/features/main/main_screen.dart';
 
 class SignUpScreen extends StatefulWidget {
   const SignUpScreen({super.key});
@@ -137,7 +138,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                         if (formKey.currentState?.validate() ?? false) {
                           AppNavigation.pushAndRemoveUntil(
                             context,
-                            const HomeScreen(),
+                            const MainScreen(),
                           );
                         }
                       },

@@ -7,6 +7,7 @@ import 'package:nectar_app/extentions/navigation.dart';
 import 'package:nectar_app/features/auth/pages/sign_up_screen.dart';
 import 'package:nectar_app/features/auth/widgets/authFormWidget.dart';
 import 'package:nectar_app/features/home/pages/home_screen.dart';
+import 'package:nectar_app/features/main/main_screen.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
@@ -95,7 +96,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 if (formKey.currentState?.validate() ?? false) {
                   AppNavigation.pushAndRemoveUntil(
                     context,
-                    const HomeScreen(),
+                    const MainScreen(),
                   );
                 }
               },
