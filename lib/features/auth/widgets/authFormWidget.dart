@@ -54,6 +54,7 @@ class AuthFormWidget extends StatelessWidget {
             ...fields,
             const SizedBox(height: 64),
             AppMainButton(text: buttonText, onPressed: onButtonPressed),
+            AppMainButton(text: buttonText, onPressed: onButtonPressed),
             const SizedBox(height: 25),
             bottomWidget,
           ],
