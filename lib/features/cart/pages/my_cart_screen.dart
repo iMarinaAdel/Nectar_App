@@ -28,10 +28,13 @@ class _MyCartScreenState extends State<MyCartScreen> {
             const SizedBox(height: 30),
             CartListVeiwWidget(),
 
-            AppMainButton(
-              text: "Go to Checkout",
-              onPressed: () {},
-              totalPrice: 11.98,
+            Padding(
+              padding: const EdgeInsets.only(bottom: 25),
+              child: AppMainButton(
+                text: "Go to Checkout",
+                onPressed: () {},
+                totalPrice: 11.98,
+              ),
             ),
           ],
         ),

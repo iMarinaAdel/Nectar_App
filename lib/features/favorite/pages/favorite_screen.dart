@@ -33,7 +33,10 @@ class FavoriteScreen extends StatelessWidget {
                 itemCount: favProducts.length,
               ),
             ),
-            AppMainButton(text: "Add All To Cart", onPressed: () {}),
+            Padding(
+              padding: const EdgeInsets.only(bottom: 25),
+              child: AppMainButton(text: "Add All To Cart", onPressed: () {}),
+            ),
           ],
         ),
       ),
