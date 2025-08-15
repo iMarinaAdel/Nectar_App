@@ -1,9 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:nectar_app/componant/Buttons/elevated_button.dart';
+import 'package:nectar_app/componant/Buttons/app_main_button.dart';
 import 'package:nectar_app/const/app_assets.dart';
 import 'package:nectar_app/core/utils/app_colors.dart';
-
 
 class AuthFormWidget extends StatelessWidget {
   final String title;
@@ -54,10 +53,7 @@ class AuthFormWidget extends StatelessWidget {
             const SizedBox(height: 40),
             ...fields,
             const SizedBox(height: 64),
-            AppElevatedButton(
-              text: buttonText,
-              onPressed: onButtonPressed,
-            ),
+            AppMainButton(text: buttonText, onPressed: onButtonPressed),
             const SizedBox(height: 25),
             bottomWidget,
           ],

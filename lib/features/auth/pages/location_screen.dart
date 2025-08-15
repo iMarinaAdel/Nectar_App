@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nectar_app/componant/Buttons/elevated_button.dart';
+import 'package:nectar_app/componant/Buttons/app_main_button.dart';
 import 'package:nectar_app/componant/inputs/input_text_form_field.dart';
 import 'package:nectar_app/const/app_assets.dart';
 import 'package:nectar_app/core/utils/app_colors.dart';
@@ -68,7 +68,7 @@ class _LocationScreenState extends State<LocationScreen> {
                       hintText: 'Cairo, Egypt',
                     ),
                     const SizedBox(height: 78),
-                    AppElevatedButton(
+                    AppMainButton(
                       text: "Submit",
                       onPressed: () {
                         if (formKey.currentState?.validate() ?? false) {
