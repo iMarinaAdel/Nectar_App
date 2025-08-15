@@ -3,9 +3,13 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:nectar_app/const/app_assets.dart';
 import 'package:nectar_app/core/utils/app_colors.dart';
 import 'package:nectar_app/extentions/navigation.dart';
+<<<<<<< HEAD
 import 'package:nectar_app/features/explore/pages/explore_screen.dart';
 import 'package:nectar_app/features/home/pages/home_screen.dart';
 import 'package:nectar_app/features/main/main_screen.dart';
+=======
+import 'package:nectar_app/features/account/pages/account_screen.dart';
+>>>>>>> main
 
 class SlpashScreen extends StatefulWidget {
   const SlpashScreen({super.key});
@@ -18,7 +22,11 @@ class _SlpashScreenState extends State<SlpashScreen> {
   @override
   void initState() {
     Future.delayed(Duration(seconds: 3), () {
+<<<<<<< HEAD
       AppNavigation.pushReplacementTO(context, MainScreen());
+=======
+      AppNavigation.pushReplacementTO(context, AccountScreen());
+>>>>>>> main
     });
     super.initState();
   }

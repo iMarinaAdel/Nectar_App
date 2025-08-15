@@ -6,8 +6,6 @@ class AppAssets {
   static const String searchSvg = "assets/icons/Search.svg";
   static const String bananaPng = "assets/images/banana.png";
   static const String applePng = "assets/images/apple.png";
-}
-
-class ExploreAssets {
-  static const String frashFruitsAndVegetable = "";
+  static const String profile = "assets/images/profile.webp";
+  static const String exit = "assets/icons/profile_icons/Exit.png";
 }

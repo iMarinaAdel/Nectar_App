@@ -63,6 +63,10 @@ flutter:
     - assets/images/
     - assets/icons/
     - assets/images/Explore_images/
+    - assets/images/cart_image/
+    - assets/images/fav_images/
+    - assets/icons/profile_icons/
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
