@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:nectar_app/core/utils/app_theme.dart';
-import 'package:nectar_app/features/slpash_screen.dart';
+import 'package:nectar_app/features/splash_screen/slpash_screen.dart';
 
 void main() {
   runApp(const NectarApp());

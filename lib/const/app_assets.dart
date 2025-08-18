@@ -8,4 +8,5 @@ class AppAssets {
   static const String applePng = "assets/images/apple.png";
   static const String profile = "assets/images/profile.webp";
   static const String exit = "assets/icons/profile_icons/Exit.png";
+  static const String welcome = "assets/images/welcom.png";
 }

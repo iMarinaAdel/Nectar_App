@@ -119,12 +119,39 @@ class _SignUpScreenState extends State<SignUpScreen> {
                               color: ColorsApp.grayColor,
                             ),
                           ),
+                          WidgetSpan(
+                            alignment: PlaceholderAlignment.middle,
+                            child: GestureDetector(
+                              onTap: () {},
+                              child: Text(
+                                "  Terms of Service",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.w400,
+                                  fontSize: 14,
+                                  color: ColorsApp.primaryColor,
+                                ),
+                              ),
+                            ),
+                          ),
                           TextSpan(
-                            text: " Terms of Service and Privacy Policy.",
+                            text: " and",
                             style: TextStyle(
                               fontWeight: FontWeight.w400,
                               fontSize: 14,
-                              color: ColorsApp.primaryColor,
+                              color: ColorsApp.grayColor,
+                            ),
+                          ),
+                          WidgetSpan(
+                            child: GestureDetector(
+                              onTap: () {},
+                              child: Text(
+                                "Privacy Policy.",
+                                style: TextStyle(
+                                  fontWeight: FontWeight.w400,
+                                  fontSize: 14,
+                                  color: ColorsApp.primaryColor,
+                                ),
+                              ),
                             ),
                           ),
                         ],
