@@ -3,7 +3,6 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:nectar_app/const/app_assets.dart';
 import 'package:nectar_app/core/utils/app_colors.dart';
 import 'package:nectar_app/extentions/navigation.dart';
-import 'package:nectar_app/features/auth/pages/login_screen.dart';
 import 'package:nectar_app/features/welcome/welcome_screen.dart';
 
 class SlpashScreen extends StatefulWidget {
