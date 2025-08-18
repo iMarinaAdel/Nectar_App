@@ -28,7 +28,6 @@ class _MainScreenState extends State<MainScreen> {
     return Scaffold(
       body: screens[currentIndex],
       bottomNavigationBar: Container(
-        height: 80,
         decoration: BoxDecoration(
           color: Colors.white,
           boxShadow: [
