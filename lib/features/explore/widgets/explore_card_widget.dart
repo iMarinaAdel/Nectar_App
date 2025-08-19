@@ -19,7 +19,8 @@ class ExploreCardWidget extends StatelessWidget {
           Expanded(child: Image.asset(cardmodel.image, width: 95, height: 95)),
           const SizedBox(height: 20),
           Text(
-            cardmodel.catNmae,
+            textAlign: TextAlign.center,
+            cardmodel.catName,
             style: TextStyle(
               fontWeight: FontWeight.w600,
               fontSize: 18,

@@ -23,7 +23,7 @@ class FavItemWidget extends StatelessWidget {
                 favModel.name,
                 style: TextStyle(
                   fontSize: 16,
-                  fontWeight: FontWeight.w500,
+                  fontWeight: FontWeight.w600,
                   color: AppColors.darkColor,
                 ),
               ),
@@ -48,7 +48,7 @@ class FavItemWidget extends StatelessWidget {
                 style: TextStyle(
                   color: AppColors.darkColor,
                   fontWeight: FontWeight.w600,
-                  fontSize: 19,
+                  fontSize: 17,
                 ),
               ),
               SizedBox(width: 8),

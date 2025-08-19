@@ -6,13 +6,13 @@ import 'package:nectar_app/features/cart/widget/cheack_out_button_sheet.dart';
 
 class MyCartScreen extends StatefulWidget {
   const MyCartScreen({super.key});
- 
+
   @override
   State<MyCartScreen> createState() => _MyCartScreenState();
 }
 
 class _MyCartScreenState extends State<MyCartScreen> {
-    CheackoutModel? cheackoutModel;
+  CheackoutModel? cheackoutModel;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -37,7 +37,7 @@ class _MyCartScreenState extends State<MyCartScreen> {
                 text: "Go to Checkout",
                 onPressed: () {
                   showModalBottomSheet(
-                    isScrollControlled: true, 
+                    isScrollControlled: true,
                     elevation: 10,
                     context: context,
                     builder: (context) {

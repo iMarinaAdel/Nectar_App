@@ -3,6 +3,7 @@ import 'package:nectar_app/core/utils/app_colors.dart';
 
 class AppTheme {
   static ThemeData lighttheme = ThemeData(
+    fontFamily: 'Poppins',
     appBarTheme: AppBarTheme(
       surfaceTintColor: Colors.transparent,
       backgroundColor: AppColors.whiteColor,

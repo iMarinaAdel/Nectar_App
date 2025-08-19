@@ -5,7 +5,7 @@ import 'package:nectar_app/componant/Buttons/app_main_button.dart';
 import 'package:nectar_app/const/app_assets.dart';
 import 'package:nectar_app/core/utils/app_colors.dart';
 import 'package:nectar_app/extentions/navigation.dart';
-import 'package:nectar_app/features/auth/pages/login_screen.dart';
+import 'package:nectar_app/features/auth/pages/location_screen.dart';
 
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
@@ -14,9 +14,7 @@ class WelcomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Stack(
-        
         children: [
-          
           Image.asset(
             AppAssets.welcome,
             fit: BoxFit.cover,
@@ -77,7 +75,7 @@ class WelcomeScreen extends StatelessWidget {
                 AppMainButton(
                   text: "Get Started",
                   onPressed: () {
-                    AppNavigation.pushReplacementTO(context, LoginScreen());
+                    AppNavigation.pushReplacementTO(context, LocationScreen());
                   },
                 ),
               ],

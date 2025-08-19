@@ -28,10 +28,7 @@ class ProductInfoSection extends StatelessWidget {
           children: [
             Text(
               name,
-              style: const TextStyle(
-                fontWeight: FontWeight.w400,
-                fontSize: 24,
-              ),
+              style: const TextStyle(fontWeight: FontWeight.w500, fontSize: 24),
             ),
             const Icon(Icons.favorite_border),
           ],
@@ -50,10 +47,7 @@ class ProductInfoSection extends StatelessWidget {
                   onTap: onDecrease,
                 ),
                 const SizedBox(width: 15),
-                Text(
-                  "$itemCount",
-                  style: const TextStyle(fontSize: 24),
-                ),
+                Text("$itemCount", style: const TextStyle(fontSize: 24)),
                 const SizedBox(width: 15),
                 BuildQuantityButton(
                   icon: Icons.add,
@@ -66,10 +60,7 @@ class ProductInfoSection extends StatelessWidget {
             ),
             Text(
               price,
-              style: const TextStyle(
-                fontSize: 25,
-                fontWeight: FontWeight.w400,
-              ),
+              style: const TextStyle(fontSize: 25, fontWeight: FontWeight.w500),
             ),
           ],
         ),

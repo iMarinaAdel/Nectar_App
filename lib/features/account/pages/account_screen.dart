@@ -16,15 +16,13 @@ class AccountScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            // ==== Profile Header ====
             const ProfileHeader(),
 
-            // Divider line
             Divider(color: AppColors.grayColor.withValues(alpha: .3)),
 
             ProfileItemWidget(),
             Padding(
-              padding: const EdgeInsets.all(25),
+              padding: const EdgeInsets.fromLTRB(25, 0, 25, 25),
               child: SizedBox(
                 width: double.infinity,
                 height: 67,

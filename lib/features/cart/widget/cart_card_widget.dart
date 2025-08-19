@@ -69,7 +69,13 @@ class _CartCardWidgetState extends State<CartCardWidget> {
                       },
                     ),
                     const SizedBox(width: 15),
-                    Text("$itemCount", style: const TextStyle(fontSize: 18)),
+                    Text(
+                      "$itemCount",
+                      style: const TextStyle(
+                        fontSize: 18,
+                        fontWeight: FontWeight.w500,
+                      ),
+                    ),
                     const SizedBox(width: 15),
                     BuildQuantityButton(
                       icon: Icons.add,

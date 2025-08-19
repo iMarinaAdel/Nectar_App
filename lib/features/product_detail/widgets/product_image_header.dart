@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+
 class ProductImageHeader extends StatelessWidget {
   const ProductImageHeader({super.key, required this.image, required this.tag});
   final String image;
@@ -16,10 +17,7 @@ class ProductImageHeader extends StatelessWidget {
           bottomRight: Radius.circular(25),
         ),
       ),
-      child: Hero(
-        tag: tag,
-        child: Image.asset(image),
-      ),
+      child: Hero(tag: tag, child: Image.asset(image)),
     );
   }
 }
