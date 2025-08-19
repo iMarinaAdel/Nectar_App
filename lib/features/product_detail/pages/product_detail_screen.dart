@@ -34,7 +34,7 @@ class _ProductDetailScreenState extends State<ProductDetailScreen> {
       ),
       body: Column(
         children: [
-          ProductImageHeader(image: widget.homeCardModel.iamge),
+          ProductImageHeader(image: widget.homeCardModel.iamge, tag: widget.homeCardModel.name,),
           Expanded(
             child: Padding(
               padding: const EdgeInsets.all(20),
