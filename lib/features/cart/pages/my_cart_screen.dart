@@ -1,15 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:nectar_app/componant/Buttons/app_main_button.dart';
+import 'package:nectar_app/features/cart/models/cheackOut_model.dart';
 import 'package:nectar_app/features/cart/widget/cart_list_veiw_widget.dart';
+import 'package:nectar_app/features/cart/widget/cheack_out_button_sheet.dart';
 
 class MyCartScreen extends StatefulWidget {
   const MyCartScreen({super.key});
-
+ 
   @override
   State<MyCartScreen> createState() => _MyCartScreenState();
 }
 
 class _MyCartScreenState extends State<MyCartScreen> {
+    CheackoutModel? cheackoutModel;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -32,7 +35,16 @@ class _MyCartScreenState extends State<MyCartScreen> {
               padding: const EdgeInsets.only(bottom: 25),
               child: AppMainButton(
                 text: "Go to Checkout",
-                onPressed: () {},
+                onPressed: () {
+                  showModalBottomSheet(
+                    isScrollControlled: true, 
+                    elevation: 10,
+                    context: context,
+                    builder: (context) {
+                      return CheackOutButtonSheet();
+                    },
+                  );
+                },
                 totalPrice: 11.98,
               ),
             ),
