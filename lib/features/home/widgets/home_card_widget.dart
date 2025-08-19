@@ -25,7 +25,7 @@ class HomeCardWidget extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.w500,
               fontSize: 16,
-              color: ColorsApp.darkColor,
+              color: AppColors.darkColor,
             ),
           ),
           const SizedBox(height: 5),
@@ -34,7 +34,7 @@ class HomeCardWidget extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.w400,
               fontSize: 14,
-              color: ColorsApp.grayColor,
+              color: AppColors.grayColor,
             ),
           ),
           const SizedBox(height: 15),
@@ -46,7 +46,7 @@ class HomeCardWidget extends StatelessWidget {
                   style: TextStyle(
                     fontWeight: FontWeight.w600,
                     fontSize: 18,
-                    color: ColorsApp.darkColor,
+                    color: AppColors.darkColor,
                   ),
                 ),
               ),
@@ -55,8 +55,8 @@ class HomeCardWidget extends StatelessWidget {
                 onPressed: () {},
                 elevation: 0,
                 mini: true,
-                backgroundColor: ColorsApp.primaryColor,
-                child: Icon(Icons.add, color: ColorsApp.whiteColor),
+                backgroundColor: AppColors.primaryColor,
+                child: Icon(Icons.add, color: AppColors.whiteColor),
               ),
             ],
           ),

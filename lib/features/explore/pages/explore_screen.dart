@@ -22,7 +22,7 @@ class _ExploreScreenState extends State<ExploreScreen> {
           style: TextStyle(
             fontWeight: FontWeight.w600,
             fontSize: 20,
-            color: ColorsApp.darkColor,
+            color: AppColors.darkColor,
           ),
         ),
       ),

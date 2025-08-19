@@ -8,7 +8,9 @@ class InputTextFormField extends StatelessWidget {
     this.suffixIcon,
     this.preffixIcon,
     this.onchange,
-    required this.hintText, this.validator, this.obscureText=false,
+    required this.hintText,
+    this.validator,
+    this.obscureText = false,
   });
   final String textLabel;
   final Widget? suffixIcon;
@@ -20,7 +22,7 @@ class InputTextFormField extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return TextFormField(
-     obscureText: obscureText,
+      obscureText: obscureText,
       validator: validator,
       onChanged: onchange,
       decoration: InputDecoration(
@@ -28,7 +30,7 @@ class InputTextFormField extends StatelessWidget {
           hintText,
           style: TextStyle(
             fontWeight: FontWeight.w400,
-            color: ColorsApp.darkColor,
+            color: AppColors.darkColor,
             fontSize: 18,
           ),
         ),
@@ -39,7 +41,7 @@ class InputTextFormField extends StatelessWidget {
           style: TextStyle(
             fontWeight: FontWeight.w600,
             fontSize: 16,
-            color: ColorsApp.grayColor,
+            color: AppColors.grayColor,
           ),
         ),
       ),

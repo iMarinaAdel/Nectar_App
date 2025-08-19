@@ -19,11 +19,11 @@ final void Function()? onTap;
         decoration: BoxDecoration(
           borderRadius: BorderRadius.circular(10),
       
-          border: Border.all(color: ColorsApp.grayColor.withValues(alpha: .3)),
+          border: Border.all(color: AppColors.grayColor.withValues(alpha: .3)),
         ),
         child: Icon(
           icon,
-          color: isAdd ? Colors.green : ColorsApp.grayColor,
+          color: isAdd ? Colors.green : AppColors.grayColor,
           size: 24,
         ),
       ),

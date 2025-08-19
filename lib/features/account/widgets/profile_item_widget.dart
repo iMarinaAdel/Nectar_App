@@ -15,7 +15,7 @@ class ProfileItemWidget extends StatelessWidget {
           return AccontCard(profileModel: profileCat);
         },
         separatorBuilder: (context, index) {
-          return Divider(color: ColorsApp.grayColor.withValues(alpha: .3));
+          return Divider(color: AppColors.grayColor.withValues(alpha: .3));
         },
       ),
     );
@@ -44,7 +44,7 @@ class AccontCard extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.w600,
-                  color: ColorsApp.darkColor,
+                  color: AppColors.darkColor,
                 ),
               ),
             ],
@@ -54,7 +54,7 @@ class AccontCard extends StatelessWidget {
           Icon(
             Icons.arrow_forward_ios_rounded,
             size: 18,
-            color: ColorsApp.grayColor,
+            color: AppColors.grayColor,
           ),
         ],
       ),

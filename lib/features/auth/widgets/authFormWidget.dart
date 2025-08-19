@@ -47,7 +47,7 @@ class AuthFormWidget extends StatelessWidget {
               style: TextStyle(
                 fontWeight: FontWeight.w400,
                 fontSize: 16,
-                color: ColorsApp.grayColor,
+                color: AppColors.grayColor,
               ),
             ),
             const SizedBox(height: 40),

@@ -21,7 +21,7 @@ class BuildHomeWidget extends StatelessWidget {
               style: TextStyle(
                 fontWeight: FontWeight.w600,
                 fontSize: 24,
-                color: ColorsApp.darkColor,
+                color: AppColors.darkColor,
               ),
             ),
             TextButton(
@@ -31,7 +31,7 @@ class BuildHomeWidget extends StatelessWidget {
                 style: TextStyle(
                   fontWeight: FontWeight.w600,
                   fontSize: 16,
-                  color: ColorsApp.primaryColor,
+                  color: AppColors.primaryColor,
                 ),
               ),
             ),
@@ -48,7 +48,7 @@ class BuildHomeWidget extends StatelessWidget {
               style: TextStyle(
                 fontWeight: FontWeight.w600,
                 fontSize: 24,
-                color: ColorsApp.darkColor,
+                color: AppColors.darkColor,
               ),
             ),
             TextButton(
@@ -58,7 +58,7 @@ class BuildHomeWidget extends StatelessWidget {
                 style: TextStyle(
                   fontWeight: FontWeight.w600,
                   fontSize: 16,
-                  color: ColorsApp.primaryColor,
+                  color: AppColors.primaryColor,
                 ),
               ),
             ),

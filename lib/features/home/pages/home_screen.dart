@@ -9,14 +9,13 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    
     return Scaffold(
       appBar: AppBar(
         title: SvgPicture.asset(
           AppAssets.logoSvg,
           width: 210,
           colorFilter: ColorFilter.mode(
-            ColorsApp.primaryColor,
+            AppColors.primaryColor,
             BlendMode.srcIn,
           ),
         ),

@@ -24,13 +24,13 @@ class FavItemWidget extends StatelessWidget {
                 style: TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.w500,
-                  color: ColorsApp.darkColor,
+                  color: AppColors.darkColor,
                 ),
               ),
               Text(
                 favModel.subTitle,
                 style: TextStyle(
-                  color: ColorsApp.grayColor,
+                  color: AppColors.grayColor,
                   fontSize: 14,
                   fontWeight: FontWeight.w400,
                 ),
@@ -46,7 +46,7 @@ class FavItemWidget extends StatelessWidget {
               Text(
                 favModel.price,
                 style: TextStyle(
-                  color: ColorsApp.darkColor,
+                  color: AppColors.darkColor,
                   fontWeight: FontWeight.w600,
                   fontSize: 19,
                 ),
@@ -55,7 +55,7 @@ class FavItemWidget extends StatelessWidget {
               Icon(
                 Icons.arrow_forward_ios,
                 size: 16,
-                color: ColorsApp.grayColor,
+                color: AppColors.grayColor,
               ),
             ],
           ),

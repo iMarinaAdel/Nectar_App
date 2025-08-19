@@ -5,27 +5,27 @@ class AppTheme {
   static ThemeData lighttheme = ThemeData(
     appBarTheme: AppBarTheme(
       surfaceTintColor: Colors.transparent,
-      backgroundColor: ColorsApp.whiteColor,
+      backgroundColor: AppColors.whiteColor,
     ),
-    scaffoldBackgroundColor: ColorsApp.whiteColor,
-    hintColor: ColorsApp.grayColor,
+    scaffoldBackgroundColor: AppColors.whiteColor,
+    hintColor: AppColors.grayColor,
     textSelectionTheme: TextSelectionThemeData(
-      cursorColor: ColorsApp.primaryColor,
+      cursorColor: AppColors.primaryColor,
 
-      selectionHandleColor: ColorsApp.primaryColor,
+      selectionHandleColor: AppColors.primaryColor,
     ),
     inputDecorationTheme: InputDecorationTheme(
       enabledBorder: UnderlineInputBorder(
         borderRadius: BorderRadius.circular(10),
-        borderSide: BorderSide(color: ColorsApp.grayColor),
+        borderSide: BorderSide(color: AppColors.grayColor),
       ),
       focusedBorder: UnderlineInputBorder(
         borderRadius: BorderRadius.circular(10),
-        borderSide: BorderSide(color: ColorsApp.primaryColor),
+        borderSide: BorderSide(color: AppColors.primaryColor),
       ),
       errorBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(10),
-        borderSide: BorderSide(color: ColorsApp.redColor),
+        borderSide: BorderSide(color: AppColors.redColor),
       ),
       disabledBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(10),

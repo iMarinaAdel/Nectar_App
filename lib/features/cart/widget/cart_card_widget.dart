@@ -52,7 +52,7 @@ class _CartCardWidgetState extends State<CartCardWidget> {
                       widget.myCartModel.description,
                       style: TextStyle(
                         fontSize: 16,
-                        color: ColorsApp.grayColor,
+                        color: AppColors.grayColor,
                       ),
                     ),
                   ],
@@ -90,7 +90,7 @@ class _CartCardWidgetState extends State<CartCardWidget> {
           Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              const Icon(Icons.close),
+              const Icon(Icons.close, color: AppColors.grayColor),
               Text(
                 widget.myCartModel.price,
                 style: const TextStyle(

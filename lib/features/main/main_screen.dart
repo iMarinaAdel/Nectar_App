@@ -32,7 +32,7 @@ class _MainScreenState extends State<MainScreen> {
           color: Colors.white,
           boxShadow: [
             BoxShadow(
-              color: ColorsApp.grayColor.withValues(alpha: .2),
+              color: AppColors.grayColor.withValues(alpha: .2),
               spreadRadius: 5,
               blurRadius: 7,
               offset: Offset(0, 3),
@@ -53,8 +53,8 @@ class _MainScreenState extends State<MainScreen> {
           type: BottomNavigationBarType.fixed,
           elevation: 0,
           backgroundColor: Colors.transparent,
-          selectedItemColor: ColorsApp.primaryColor,
-          unselectedItemColor: ColorsApp.grayColor,
+          selectedItemColor: AppColors.primaryColor,
+          unselectedItemColor: AppColors.grayColor,
           items: const [
             BottomNavigationBarItem(
               icon: Icon(Icons.storefront),

@@ -20,7 +20,7 @@ class AccountScreen extends StatelessWidget {
             const ProfileHeader(),
 
             // Divider line
-            Divider(color: ColorsApp.grayColor.withValues(alpha: .3)),
+            Divider(color: AppColors.grayColor.withValues(alpha: .3)),
 
             ProfileItemWidget(),
             Padding(
@@ -52,7 +52,7 @@ class AccountScreen extends StatelessWidget {
                         style: TextStyle(
                           fontWeight: FontWeight.w600,
                           fontSize: 16,
-                          color: ColorsApp.primaryColor,
+                          color: AppColors.primaryColor,
                         ),
                       ),
                     ],

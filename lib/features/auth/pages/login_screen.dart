@@ -62,7 +62,7 @@ class _LoginScreenState extends State<LoginScreen> {
                         ? SvgPicture.asset(AppAssets.closeEyeSvg)
                         : Icon(
                             Icons.remove_red_eye,
-                            color: ColorsApp.primaryColor,
+                            color: AppColors.primaryColor,
                           ),
                   ),
                   textLabel: "Password",
@@ -84,7 +84,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       style: TextStyle(
                         fontWeight: FontWeight.w400,
                         fontSize: 14,
-                        color: ColorsApp.primaryColor,
+                        color: AppColors.primaryColor,
                       ),
                     ),
                   ),
@@ -102,7 +102,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   Text(
                     "Don’t have an account?",
                     style: TextStyle(
-                      color: ColorsApp.darkColor,
+                      color: AppColors.darkColor,
                       fontWeight: FontWeight.w600,
                       fontSize: 14,
                     ),
@@ -122,7 +122,7 @@ class _LoginScreenState extends State<LoginScreen> {
                       style: TextStyle(
                         fontWeight: FontWeight.w600,
                         fontSize: 14,
-                        color: ColorsApp.primaryColor,
+                        color: AppColors.primaryColor,
                       ),
                     ),
                   ),

@@ -17,7 +17,7 @@ class AppMainButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return ElevatedButton(
       style: ElevatedButton.styleFrom(
-        backgroundColor: ColorsApp.primaryColor,
+        backgroundColor: AppColors.primaryColor,
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(19)),
       ),
       onPressed: onPressed,
@@ -36,7 +36,7 @@ class AppMainButton extends StatelessWidget {
                 child: Text(
                   text,
                   style: const TextStyle(
-                    color: ColorsApp.whiteColor,
+                    color: AppColors.whiteColor,
                     fontWeight: FontWeight.w600,
                     fontSize: 18,
                   ),
@@ -53,7 +53,7 @@ class AppMainButton extends StatelessWidget {
                 child: Text(
                   "\$${totalPrice!.toStringAsFixed(2)}",
                   style: const TextStyle(
-                    color: ColorsApp.whiteColor,
+                    color: AppColors.whiteColor,
                     fontWeight: FontWeight.w600,
                     fontSize: 18,
                   ),

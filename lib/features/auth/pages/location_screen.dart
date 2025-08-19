@@ -48,7 +48,7 @@ class _LocationScreenState extends State<LocationScreen> {
                       "Switch on your location to stay in tune with what’s happening in your area",
                       textAlign: TextAlign.center,
                       style: TextStyle(
-                        color: ColorsApp.grayColor,
+                        color: AppColors.grayColor,
                         fontSize: 16,
                         fontWeight: FontWeight.w400,
                       ),

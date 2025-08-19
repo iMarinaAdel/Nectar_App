@@ -38,14 +38,14 @@ class ProfileHeader extends StatelessWidget {
                       style: TextStyle(
                         fontWeight: FontWeight.w600,
                         fontSize: 21,
-                        color: ColorsApp.darkColor,
+                        color: AppColors.darkColor,
                       ),
                     ),
                     const SizedBox(width: 6),
                     Icon(
                       Icons.edit,
                       size: 18,
-                      color: ColorsApp.primaryColor,
+                      color: AppColors.primaryColor,
                     ),
                   ],
                 ),
@@ -55,7 +55,7 @@ class ProfileHeader extends StatelessWidget {
                   style: TextStyle(
                     fontWeight: FontWeight.w400,
                     fontSize: 16,
-                    color: ColorsApp.grayColor,
+                    color: AppColors.grayColor,
                   ),
                 ),
               ],

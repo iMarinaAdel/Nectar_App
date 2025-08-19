@@ -23,7 +23,7 @@ class ExploreCardWidget extends StatelessWidget {
             style: TextStyle(
               fontWeight: FontWeight.w600,
               fontSize: 18,
-              color: ColorsApp.darkColor,
+              color: AppColors.darkColor,
             ),
           ),
         ],

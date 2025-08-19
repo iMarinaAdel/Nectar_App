@@ -50,7 +50,7 @@ class WelcomeScreen extends StatelessWidget {
                 SvgPicture.asset(
                   AppAssets.carrotSvg,
                   colorFilter: ColorFilter.mode(
-                    ColorsApp.whiteColor,
+                    AppColors.whiteColor,
                     BlendMode.srcIn,
                   ),
                 ),
@@ -60,7 +60,7 @@ class WelcomeScreen extends StatelessWidget {
                   "Welcome \nto our store",
                   textAlign: TextAlign.center,
                   style: TextStyle(
-                    color: ColorsApp.whiteColor,
+                    color: AppColors.whiteColor,
                     fontSize: 48,
                     fontWeight: FontWeight.w600,
                   ),
@@ -70,7 +70,7 @@ class WelcomeScreen extends StatelessWidget {
                   style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.w400,
-                    color: ColorsApp.grayColor,
+                    color: AppColors.grayColor,
                   ),
                 ),
                 Gap(10),

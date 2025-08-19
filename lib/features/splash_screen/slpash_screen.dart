@@ -24,7 +24,7 @@ class _SlpashScreenState extends State<SlpashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: ColorsApp.primaryColor,
+      backgroundColor: AppColors.primaryColor,
       body: Center(child: SvgPicture.asset(AppAssets.logoSvg)),
     );
   }
