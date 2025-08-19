@@ -1,66 +1,76 @@
 import 'package:flutter/material.dart';
 import 'package:nectar_app/core/utils/app_colors.dart';
+import 'package:nectar_app/extentions/navigation.dart';
 import 'package:nectar_app/features/home/models/model_box.dart';
+import 'package:nectar_app/features/product_detail/pages/product_detail_screen.dart';
 
 class HomeCardWidget extends StatelessWidget {
   const HomeCardWidget({super.key, required this.cardModel});
   final HomeCardModel cardModel;
   @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.all(15),
-      height: 248,
-      width: 176,
-      decoration: BoxDecoration(
-        border: Border.all(color: Color(0xffE2E2E2)),
-        borderRadius: BorderRadius.circular(18),
-      ),
-      child: Column(
-        children: [
-          const SizedBox(height: 10),
-          Expanded(child: cardModel.iamge),
-          const SizedBox(height: 25),
-          Text(
-            cardModel.name,
-            style: TextStyle(
-              fontWeight: FontWeight.w500,
-              fontSize: 16,
-              color: AppColors.darkColor,
+    return GestureDetector(
+      onTap: () {
+        AppNavigation.pushTO(
+          context,
+          ProductDetailScreen(homeCardModel: cardModel),
+        );
+      },
+      child: Container(
+        padding: EdgeInsets.all(15),
+        height: 248,
+        width: 176,
+        decoration: BoxDecoration(
+          border: Border.all(color: Color(0xffE2E2E2)),
+          borderRadius: BorderRadius.circular(18),
+        ),
+        child: Column(
+          children: [
+            const SizedBox(height: 10),
+            Expanded(child: Image.asset(cardModel.iamge)),
+            const SizedBox(height: 25),
+            Text(
+              cardModel.name,
+              style: TextStyle(
+                fontWeight: FontWeight.w500,
+                fontSize: 16,
+                color: AppColors.darkColor,
+              ),
             ),
-          ),
-          const SizedBox(height: 5),
-          Text(
-            cardModel.quantity,
-            style: TextStyle(
-              fontWeight: FontWeight.w400,
-              fontSize: 14,
-              color: AppColors.grayColor,
+            const SizedBox(height: 5),
+            Text(
+              cardModel.quantity,
+              style: TextStyle(
+                fontWeight: FontWeight.w400,
+                fontSize: 14,
+                color: AppColors.grayColor,
+              ),
             ),
-          ),
-          const SizedBox(height: 15),
-          Row(
-            children: [
-              Expanded(
-                child: Text(
-                  cardModel.price,
-                  style: TextStyle(
-                    fontWeight: FontWeight.w600,
-                    fontSize: 18,
-                    color: AppColors.darkColor,
+            const SizedBox(height: 15),
+            Row(
+              children: [
+                Expanded(
+                  child: Text(
+                    cardModel.price,
+                    style: TextStyle(
+                      fontWeight: FontWeight.w600,
+                      fontSize: 18,
+                      color: AppColors.darkColor,
+                    ),
                   ),
                 ),
-              ),
-              FloatingActionButton(
-                heroTag: null,
-                onPressed: () {},
-                elevation: 0,
-                mini: true,
-                backgroundColor: AppColors.primaryColor,
-                child: Icon(Icons.add, color: AppColors.whiteColor),
-              ),
-            ],
-          ),
-        ],
+                FloatingActionButton(
+                  heroTag: null,
+                  onPressed: () {},
+                  elevation: 0,
+                  mini: true,
+                  backgroundColor: AppColors.primaryColor,
+                  child: Icon(Icons.add, color: AppColors.whiteColor),
+                ),
+              ],
+            ),
+          ],
+        ),
       ),
     );
   }
