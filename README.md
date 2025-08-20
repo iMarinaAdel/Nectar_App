@@ -43,14 +43,27 @@ The app includes onboarding, authentication, and user-friendly forms to make sho
 7. **Profile Screen**  
    - Shows user information and app settings
 
-## 📱 Nectar App GIF
-
 ## 📱 Screenshots
 
-| Splash Screen | Login Page | Select Address | SignUp Page | Home Screen | Cart Screen | Favorite Screen | Profile Screen |
-|---------------|-----------|----------------|-------------|-------------|-------------|-----------------|----------------|
-| ![Login](screenshots/log_in.png) | ![Address](screenshots/location.png) | ![SignUp](screenshots/signUp.png) | ![Home](screenshots/home.png) | ![Cart](screenshots/myCart.png) | ![Favorite](screenshots/favorite.png) | ![Profile](screenshots/account.png) |
+ Login Page | Select Address | SignUp Page | Home Screen | Cart Screen | Favorite Screen | Profile Screen 
+|-----------|----------------|-------------|-------------|-------------|-----------------|----------------
+| ![Login](screenshots/log_in.png) | ![Address](screenshots/location.png) | ![SignUp](screenshots/signUp.png) | ![Home](screenshots/home.png) | ![Cart](screenshots/myCart.png) | ![Favorite](screenshots/favorite.png) | ![account](screenshots/account.png) | 
 
+Product Details |
+|---------------|
+ |![product_details](screenshots/product_details.png) |
+
+
+
+
+
+
+
+
+
+
+
+ 
 ## 🛠 Tech Stack
 
 - **Flutter** – Cross-platform UI toolkit
