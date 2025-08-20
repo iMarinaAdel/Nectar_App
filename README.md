@@ -59,6 +59,8 @@ The app includes onboarding, authentication, and user-friendly forms to make sho
 
 ## 📂 Project Structure
 
+## 🔗 Repository
+Find the full code on [GitHub](https://github.com/iMarinaAdel/Nectar_App)
 
 ```
 lib/
@@ -103,6 +105,4 @@ lib/
     +---splash_screen
     \---welcome
 
-## 🔗 Repository
-Find the full code on [GitHub](https://github.com/iMarinaAdel/Nectar_App)
 
